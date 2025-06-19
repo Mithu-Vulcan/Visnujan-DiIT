@@ -1,0 +1,149 @@
+:root {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "poppins";
+}
+
+.main {
+    padding: 5rem;
+    padding-top: 5rem;
+}
+
+.header {
+    margin-top: 0;
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.header img {
+    height: 100%;
+}
+
+.section {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section h2 {
+    padding: 0.5rem;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.item {
+    width: calc((100% - 8rem) / 3);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.item img {
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.name {
+    font-weight: 600;
+    margin: 0;
+}
+
+.price {
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.size {
+    margin: 0;
+}
+
+.availabilty {
+    color: mediumaquamarine;
+    margin: 0;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.btns p {
+    text-align: center;
+    height: 3rem;
+    border-radius: 0.5rem;
+    width: 50%;
+    line-height: 3rem;
+    margin-bottom: 0;
+}
+
+.buy {
+    background-color: mediumaquamarine;
+}
+
+.cart {
+    border: 2px solid coral;
+}
+
+.discount {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 0;
+}
+
+.discount .price {
+    text-decoration: line-through;
+    margin: 0;
+}
+
+.discount .disc-per {
+    color: mediumorchid;
+    margin: 0;
+}
+
+.discount .price-new {
+    text-decoration: underline;
+    color: mediumvioletred;
+    margin: 0;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
